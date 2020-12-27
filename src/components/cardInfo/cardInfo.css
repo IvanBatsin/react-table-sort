@@ -1,0 +1,12 @@
+.card-content textarea {
+  color: white;
+  resize: none;
+  border: none;
+  outline: none;
+  height: 6rem;
+}
+.card_address {
+  display: flex;
+  justify-content: flex-start;
+  flex-direction: column;
+}

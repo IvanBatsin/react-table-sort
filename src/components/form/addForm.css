@@ -1,0 +1,55 @@
+.overlay {
+  position: fixed;
+  top: 0;
+  bottom: 0;
+  left: 0;
+  right: 0;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  background-color: rgba(12, 12, 1, .7);
+  z-index: 5;
+}
+.add_form {
+  background-color: white;
+  max-width: 600px;
+  padding: 20px;
+  border-radius: 10px;
+  animation-name: formAppear;
+  animation-duration: .8s;
+  animation-iteration-count: 1;
+  max-height: 350px;
+  overflow-y: auto;
+  position: relative;
+}
+@keyframes formAppear {
+  from {
+    transform: translateY(-300px);
+  } 
+  to {
+    transform: translateY(0);
+  }
+}
+.close_icon {
+  position: absolute;
+  top: 10px;
+  right: 10px;
+  cursor: pointer;
+  font-size: 35px;
+  transition: color .4s ease-out;
+}
+.close_icon:hover {
+  color: rgb(165, 42, 73);
+}
+.btn-controls {
+  text-align: right;
+}
+.form_submit_error_message {
+  color: rgb(238, 43, 43);
+}
+.add_btn {
+  margin-right: 20px;
+}
+.form_error {
+  color: red
+}

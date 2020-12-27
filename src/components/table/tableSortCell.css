@@ -1,0 +1,8 @@
+.table_sort_block {
+  cursor: pointer;
+}
+.table_type_sort {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
